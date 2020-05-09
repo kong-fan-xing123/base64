@@ -88,5 +88,8 @@ var Base64 = {
             }
             return string;
         }
+        toString: function () {
+            throw TypeError();
+        }
     }
 }
