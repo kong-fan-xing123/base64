@@ -1,6 +1,6 @@
 # base64
 ```javascript
-var Base64 = {
+ var Base64 = {
     b64: {
         _keyStr: "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/=",
         encode: function (input) {
@@ -89,9 +89,6 @@ var Base64 = {
                 }
             }
             return string;
-        }
-        toString: function () {
-            throw TypeError();
         }
     }
 }
